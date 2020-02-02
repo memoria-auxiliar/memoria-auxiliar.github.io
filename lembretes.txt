@@ -1,3 +1,5 @@
 https://onextrapixel.com/start-jekyll-blog-github-pages-free/
 
 https://blog.webjeda.com/jekyll-categories/
+
+C:\Ruby26-x64\lib\ruby\gems\2.6.0\gems\minima-2.5.1\_layouts
