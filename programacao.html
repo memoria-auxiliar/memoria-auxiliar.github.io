@@ -1,0 +1,10 @@
+---
+layout: page
+permalink: /categories/programacao
+title: Programação
+---
+
+
+{% for post in site.categories.programacao %}
+ <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
