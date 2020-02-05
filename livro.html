@@ -1,0 +1,10 @@
+---
+layout: page
+permalink: /categories/livro
+title: Livro
+---
+
+{% assign livro_by_parte_capitulo_secao = site.categories.livro | sort: "parte_capitulo_secao" %}
+{% for post in livro_by_parte_capitulo_secao %}
+ <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Resumo do Markdown do Jekyll"
+author: "Helon D. M. Braz"
 date: 2020-02-01 23:00:00 -0300
 categories: [programacao]
 ---

@@ -1,0 +1,62 @@
+---
+---
+@import "minima";
+
+p, blockquote, ul, ol, dl, li, table, pre {
+margin: 15px 0; }
+
+table {
+  padding: 0; 
+}
+
+table th {
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  text-align: center;
+  margin: 0;
+  padding: 6px 13px; 
+}
+
+table tr {
+  border-top: 1px solid #cccccc;
+  background-color: white;
+  margin: 0;
+  padding: 0; 
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8; 
+}
+
+table tr td {
+  border: 1px solid #cccccc;
+  text-align: center;
+  margin: 0;
+  padding: 6px 13px; 
+}
+
+table tr th :first-child, table tr td :first-child {
+  margin-top: 0; 
+}
+
+table tr th :last-child, table tr td :last-child {
+  margin-bottom: 0; 
+}
+
+.PageNavigation {
+  font-size: 12px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
